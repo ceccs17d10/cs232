@@ -2,23 +2,13 @@ Familarize ftp commands....
 
 // connecting///
 
-[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ ftp 14.139.189.217
+[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx:ftp 14.139.189.217
+
+
 The authenticity of host '14.139.189.217 (14.139.189.217)' can't be established.
 ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
 Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added '14.139.189.217' (ECDSA) to the list of known hosts.
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-anurose@14.139.189.217's password: 
-Permission denied, please try again.
-anurose@14.139.189.217's password: 
-Connection closed by 14.139.189.217 
-
-
-sftp cs17d10@14.139.189.217
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -40,7 +30,7 @@ Connection closed
 
 ////upload file//////
 
-]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ put githubupload.txtsftp cs17d10@14.139.189.217
+@anurose-HP-Spectre-x360-Convertible-13-ae0xx: sftp cs17d10@14.139.189.217
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -48,7 +38,7 @@ Connection closed
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d10@14.139.189.217's password: 
 Connected to 14.139.189.217.
-sftp> pt githubupload.txtp[1@ut
+sftp> put githubupload.txt
 Uploading githubupload.txt to /home/cs17d10/githubupload.txt
 
 githubupload.txt                                                                            0%    0     0.0KB/s   --:-- ETA
@@ -62,9 +52,8 @@ examples.desktop  githubupload.txt
 
 ///download file///
 
-sftp> get githubload.txt
-File "/home/cs17d10/githubload.txt" not found.
-sftp> get upload[K[K[K[K[K[Kgithubupload.txt
+
+sftp> get githubupload.txt
 Fetching /home/cs17d10/githubupload.txt to githubupload.txt
 
 /home/cs17d10/githubupload.txt                                                               0%    0     0.0KB/s   --:-- ETA
@@ -75,7 +64,7 @@ sftp> bye
 //basic comments///  
 
 
-]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ sftp cs17d10@14.139.189.217[7Pput githubupload.txtsftp cs17d10@14.139.189.217
+01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xxsftp cs17d10@14.139.189.217
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -99,7 +88,7 @@ Couldn't rename file "/home/cs17d10/githubupload" to "/home/cs17d10/11feb": No s
 
 sftp> ls
 examples.desktop  githubupload.txt  
-sftp> lsrename githubupload 11feb[1@. [1@t [1@x [1@t  11feb.txt
+sftp> lsrename githubupload 11feb.txt
 
 sftp> ls
 11feb.txt         examples.desktop  
