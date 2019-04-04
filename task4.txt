@@ -1,0 +1,89 @@
+﻿Task 4 ssh scp and rsync commands
+anurose k thomas 
+roll no 10
+
+//ssh commands///
+
+ssh cs17d10@14.139.189.2 
+17
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d10@14.139.189.217's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 12:12:36 2019 from 137.97.115.237
+
+
+$ pwd
+/home/cs17d10
+$ cd
+$ pwd
+/home/cs17d10
+$ ls
+11feb.txt  examples.desktop  fosslab  res.txt  s1result.txt  s2result.pdf
+$ exit
+Connection to 14.139.189.217 closed.
+
+///scp command//
+
+scp s2result.pdf cs17d10 
+@14.139.189.217:/hom##[K##[K##[Kh##[Khome/cs17d10/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d10@14.139.189.217's password: 
+
+s2result.pdf                                    0%    0     0.0KB/s   --:-- ETA
+s2result.pdf                                  100%   28KB  87.8KB/s   00:00 
+
+scp cs17d19##[K0@14,##[K.139.189.2 
+17:/home/cs17d10/11feb.txt /home/anurose
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d10@14.139.189.217's password: 
+
+11feb.txt                                     100%    0     0.0KB/s   00:00  
+
+\\\\ rsync commands\\\
+
+ rsync -zvn s2result.pdf cs17d10@14.139.189.217:/home/cs17d10/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d10@14.139.189.217's password: 
+s2result.pdf
+
+sent 50 bytes  received 19 bytes  10.62 bytes/sec
+total size is 29,005  speedup is 420.36 (DRY RUN)
+
+
+ rsync -zh mult.java cs17d
+d10@14.139.189.217:/home/cs17d10/
+
+
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d10@14.139.189.217's password: 
+mult.java
+
+sent 80 bytes  received 41 bytes  18.62 bytes/sec
+total size is 507  speedup is 4.19
