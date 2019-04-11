@@ -1,0 +1,8 @@
+    sudo apt-get update  
+    sudo apt-get install apache2
+     sudo ufw app list
+     sudo ufw status
+     sudo systemctl status apache2
+     ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+     ifconfig                                                  //to get ip of our address//
+     sudo gedit /var/www/html/index               // edit webpage//

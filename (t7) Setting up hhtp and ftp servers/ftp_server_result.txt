@@ -1,0 +1,245 @@
+
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx:sudo at-get install vsftpd
+
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+vsftpd is already the newest version (3.0.3-9build1).
+
+The following packages were automatically installed and are no longer required:
+
+  i965-va-driver liba52-0.7.4 libaacs0 libaribb24-0 libass9 libavcodec57 libavformat57 libavutil55 libbasicusageenvironment1 libbdplus0 libbluray2
+
+  libcddb2 libchromaprint1 libcrystalhd3 libdcrystalhd3 libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1
+
+  libkate1 liblivemedia62 libmad0 libmatroska6v5 libmicrodns0 libmpcdec6 libmpeg2-4 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0
+
+  libplacebo4 libpostproc54 libprotobuf-lite10 libproxy-tools libqt5x11extras5 libresid-builder0c2a libsdl-image1.2 libsdl1.2debian libshine3
+
+  libsidplay2 libsoxr0 libssh-gcrypt-4 libssh2-1 libswresample2 libswscale4 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2
+
+  libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-146 libxvidcore4 libzvbi-common libzvbi0 linux-headers-4.15.0-45
+
+  linux-headers-4.15.0-45-generic linux-image-4.15.0-45-generic linux-modules-4.15.0-45-generic linux-modules-extra-4.15.0-45-generic
+
+  mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt
+
+  vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+
+Use 'sudo apt autoremove' to remove them.
+
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ systemctl status vsftpd
+
+[?1h=
+[0;1;32m●[0m vsftpd.service - vsftpd FTP server
+
+					   Loaded: loaded (/lib/systemd/system/vsftpd.service; enabled; vendor preset: enabled)[m
+
+					   Active: [0;1;32mactive (running)[0m since Wed 2019-04-10 19:06:54 IST; 15h ago[m
+
+					 Main PID: 1018 (vsftpd)[m
+
+						Tasks: 1 (limit: 4915)[m
+
+					   CGroup: /system.slice/vsftpd.service[m
+
+							   └─1018 /usr/sbin/vsftpd /etc/vsftpd.conf[m
+
+					[m
+
+Apr 10 19:06:54 anurose-HP-Spectre-x360-Convertible-13-ae0xx systemd[1]: Starting vsftpd FTP server...[m
+
+Apr 10 19:06:54 anurose-HP-Spectre-x360-Convertible-13-ae0xx systemd[1]: Started vsftpd FTP server.[m
+
+sudo ufw allow 20/tcp
+
+Rules updated
+
+Rules updated (v6)
+
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ sudo ufw allow 20/tcp[1P/tcp1/tcp
+
+Rules updated
+
+Rules updated (v6)
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ sudo ufw enablestatus
+
+Status: active
+
+
+
+To                         Action      From
+
+--                         ------      ----
+
+Apache                     ALLOW       Anywhere                  
+
+20/tcp                     ALLOW       Anywhere                  
+
+21/tcp                     ALLOW       Anywhere                  
+
+Apache (v6)                ALLOW       Anywhere (v6)             
+
+20/tcp (v6)                ALLOW       Anywhere (v6)             
+
+21/tcp (v6)                ALLOW       Anywhere (v6)             
+
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ sudo ufw allow 20/tcp[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
+
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ sudo vi /etc/vsftpd.conf
+
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;38r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[38;1H[97m[41mE325: ATTENTION[m
+
+
+Found a swap file by the name "/etc/.vsftpd.conf.swp"
+
+
+[10Cowned by: root   dated: Thu Apr  4 11:59:13 2019
+
+
+[9Cfile name: /etc/vsftpd.conf
+
+
+[10Cmodified: YES
+
+
+[9Cuser name: root   host name: anurose-HP-Spectre-x360-Convertible-13-
+
+
+[8Cprocess ID: 5012
+
+
+While opening file "/etc/vsftpd.conf"
+
+
+[13Cdated: Mon Feb  5 22:25:32 2018
+
+
+
+
+(1) Another program may be editing the same file.  If this is the case,
+ be careful not to end up with two different instances of the same
+
+
+    file when making changes.  Quit, or continue with caution.
+
+
+(2) An edit session for this file crashed.
+
+
+    If this is the case, use ":recover" or "vim -r /etc/vsftpd.conf"
+
+
+    to recover the changes (see ":help recovery").
+
+
+    If you did this already, delete the swap file "/etc/.vsftpd.conf.swp"
+
+
+    to avoid this message.
+    "/etc/vsftpd.conf"[37;1H"/etc/vsftpd.conf" 155 lines, 5850 characters[38;1H[K[38;1H[32mPress ENTER or type command to continue[?25h[m[1;1H[19L[?25l[1;1H# Example config file /etc/vsftpd.conf
+
+#
+
+# The default compiled in settings are fairly paranoid. This sample file
+
+# loosens things up a bit, to make the ftp daemon more usable.
+
+# Please see vsftpd.conf.5 for all compiled in defaults.
+
+#
+
+# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+
+# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+
+# capabilities.
+
+#
+
+#
+
+# Run standalone?  vsftpd can run either from an inetd or as a standalone
+
+# daemon started from an initscript.
+
+listen=NO
+
+#
+
+# This directive enables listening on IPv6 sockets. By default, listening
+
+# on the IPv6 "any" address (::) will accept connections from both IPv6
+
+# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+
+# sockets. If you want that (perhaps because you want to listen on specific
+
+# addresses) then you must run two copies of vsftpd with two configuration
+
+# files.
+
+listen_ipv6=YES
+
+#
+
+# Allow anonymous FTP? (Disabled by default).
+
+anonymous_enable=NO
+
+#
+
+# Uncomment this to allow local users to log in.
+
+local_enable=YES
+
+#
+
+# Uncomment this to enable any form of FTP write command.
+
+#write_enable=YES
+
+#
+
+# Default umask for local users is 077. You may wish to change this to 022,
+
+# if your users expect that (022 is used by most other ftpd's)
+
+#local_umask=022
+
+#
+
+# Uncomment this to allow the anonymous FTP user to upload files.
+
+
+
+
+
+
