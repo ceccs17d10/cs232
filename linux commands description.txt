@@ -1,0 +1,45 @@
+﻿a shell is a user interface for access to an operating system's services. In general, operating system shells 
+use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and 
+particular operation. It is named a shell because it is the outermost layer around the operating system kernel.[1][2]
+kernel   
+
+kernel is the core of the operating system that controls all the tasks of the system while the shell is the i
+nterface that allows the users to communicate with the kernel.
+
+
+1.Pwd command 	– to get path
+
+2.cd /	 to move to root
+
+3.ls 	 to list the files
+
+4. ls [option] [diectory]
+
+5.  ls doccuments   give the files inside the
+ dirctory doccument
+6.ls ..	 to back to folder and give content
+
+7.ls../.. 	 go back to directory 2 back ang give the content
+
+8. ls -l  	long format information of content
+
+long format means bites of file time and date of file created size etc..
+
+9. drwxr-xr-x    drwxr directory read write exicute
+
+10. ls -a  	give information of hidden files
+
+11. ls -al	  give hidden files and longlist combined
+
+12. ls -ls 	sorted file list based on size
+
+13. ls directory*extension   	give only the extension files
+
+14. ls  -ls > name of file.txt  	 to save the contents of ls -ls commands to the file
+
+15. man 	to get mannual of a command
+
+
+
+
+
