@@ -1,0 +1,138 @@
+Familarize ftp commands....
+
+// connecting///
+
+[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx:ftp 14.139.189.217
+
+
+The authenticity of host '14.139.189.217 (14.139.189.217)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '14.139.189.217' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d10@14.139.189.217's password: 
+Connected to 14.139.189.217.
+
+
+\upload file\\  failed///////
+
+sftp> put githubupload.txt[Pu[Pp[Pu[1@huu[1@up[1@bu
+stat githubupload.txt: No such file or directory
+sftp> put '/home/anurose/githubupload.txt' 
+Uploading /home/anurose/githubupload.txt to /home/cs17d10/githubupload.txt
+packet_write_wait: Connection to 14.139.189.217 port 22: Broken pipe
+Connection closed
+
+
+////upload file//////
+
+@anurose-HP-Spectre-x360-Convertible-13-ae0xx: sftp cs17d10@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d10@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> put githubupload.txt
+Uploading githubupload.txt to /home/cs17d10/githubupload.txt
+
+githubupload.txt                                                                            0%    0     0.0KB/s   --:-- ETA
+githubupload.txt                                                                            0%    0     0.0KB/s   --:-- ETA
+githubupload.txt                                                                            100%   48KB  31.1KB/s   00:01    
+
+
+
+sftp> ls
+examples.desktop  githubupload.txt  
+
+///download file///
+
+
+sftp> get githubupload.txt
+Fetching /home/cs17d10/githubupload.txt to githubupload.txt
+
+/home/cs17d10/githubupload.txt                                                               0%    0     0.0KB/s   --:-- ETA
+/home/cs17d10/githubupload.txt                                                               100%   48KB 100.9KB/s   00:00    
+
+sftp> bye
+
+//basic comments///  
+
+
+01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xxsftp cs17d10@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d10@14.139.189.217's password: 
+Permission denied, please try again.
+cs17d10@14.139.189.217's password: 
+Permission denied, please try again.
+cs17d10@14.139.189.217's password: 
+Connected to 14.139.189.217.
+
+sftp> ls
+examples.desktop  githubupload.txt  
+
+sftp> pwd
+Remote working directory: /home/cs17d10
+
+sftp> rename  githubupload 11feb
+Couldn't rename file "/home/cs17d10/githubupload" to "/home/cs17d10/11feb": No such file or directory
+
+sftp> ls
+examples.desktop  githubupload.txt  
+sftp> lsrename githubupload 11feb.txt
+
+sftp> ls
+11feb.txt         examples.desktop  
+
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-afPpRr] remote [local]       Download file
+reget [-fPpRr] remote [local]      Resume download file
+reput [-fPpRr] [local] remote      Resume upload file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln [-s] oldpath newpath            Link remote file (-s for symlink)
+lpwd                               Print local working directory
+ls [-1afhlnrSt] [path]             Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-afPpRr] local [remote]       Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+
+sftp> cd 11feb.txt
+Can't change directory: "/home/cs17d10/11feb.txt" is not a directory
+sftp> mkdir foo[Ksslab
+sftp> cd fosslab
+sftp> quit
+
+
+Script done on 2019-03-11 11:58:56
