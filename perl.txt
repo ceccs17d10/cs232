@@ -1,0 +1,54 @@
+Script started on 2019-04-11 10:52:40+0530
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ chmod perl.pl
+chmod: missing operand after ‘perl.pl’
+Try 'chmod --help' for more information.
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ chmod perl.pl0perl.pl7perl.pl5perl.pl5perl.pl perl.pl
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ ./ perl.pl
+bash: ./: Is a directory
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ ./ perl.pl[1Pperl.pl
+bash: ./perl.pl: /usr/bin/perl1^M: bad interpreter: No such file or directory
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ ftp
+ftp> ipp[K
+?Ambiguous command
+ftp> IP
+?Invalid command
+ftp> ^C
+ftp> ccc[K[K[Kexit
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ sudo gedit /var/www/html/index.html
+[sudo] password for anurose: 
+
+(gedit:3287): IBUS-[1;33mWARNING[0m **: [34m11:00:01.264[0m: The owner of /home/anurose/.config/ibus/bus is not root!
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:37:51.067[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:37:51.067[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:38:51.631[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:38:51.631[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:38:56.163[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:38:56.163[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:39:02.975[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:39:02.975[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:39:23.384[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:39:23.387[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:41:11.271[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:41:11.274[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:42:03.279[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:42:03.280[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:42:49.917[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:42:49.918[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:3287): [1;33mWARNING[0m **: [34m11:43:02.0
