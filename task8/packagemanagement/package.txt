@@ -1,0 +1,222 @@
+sudo[K[K[K[Kapt-get[K[K[Kcache show l[Kvlc
+Package: vlc
+Architecture: amd64
+Version: 3.0.4-1ubuntu0.2
+Priority: optional
+Section: universe/graphics
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 219
+Provides: mp3-decoder
+Depends: vlc-bin (= 3.0.4-1ubuntu0.2), vlc-plugin-base (= 3.0.4-1ubuntu0.2), vlc-plugin-qt (= 3.0.4-1ubuntu0.2), vlc-plugin-video-output (= 3.0.4-1ubuntu0.2)
+Recommends: vlc-l10n (= 3.0.4-1ubuntu0.2), vlc-plugin-notify (= 3.0.4-1ubuntu0.2), vlc-plugin-samba (= 3.0.4-1ubuntu0.2), vlc-plugin-skins2 (= 3.0.4-1ubuntu0.2), vlc-plugin-video-splitter (= 3.0.4-1ubuntu0.2), vlc-plugin-visualization (= 3.0.4-1ubuntu0.2)
+Filename: pool/universe/v/vlc/vlc_3.0.4-1ubuntu0.2_amd64.deb
+Size: 33672
+MD5sum: c0e2af16666a0e6e9123b3bb49feebc1
+SHA1: 241f1c4716e65fe0ad6ebe41019a1b325ff00176
+SHA256: 0bcac3fdb7972fc724471df639909cb2c876a85ff0543c7ad339148c749b0911
+Homepage: https://www.videolan.org/vlc/
+Description-en: multimedia player and streamer
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ VLC can also be used as a streaming server that duplicates the stream it
+ reads and multicasts them through the network to other clients, or serves
+ them through HTTP.
+ .
+ VLC has support for on-the-fly transcoding of audio and video formats, either
+ for broadcasting purposes or for movie format transformations. Support for
+ most output methods is provided by this package, but features can be added by
+ installing additional plugins:
+  * vlc-plugin-access-extra
+  * vlc-plugin-fluidsynth
+  * vlc-plugin-jack
+  * vlc-plugin-notify
+  * vlc-plugin-samba
+  * vlc-plugin-skins2
+  * vlc-plugin-svg
+  * vlc-plugin-video-splitter
+  * vlc-plugin-visualization
+Description-md5: d96da6b991aa50928533b16fb11b3136
+Task: kubuntu-desktop, kubuntu-full, ubuntu-mate-desktop
+Supported: 3y
+
+Package: vlc
+Architecture: amd64
+Version: 3.0.3-1-1ubuntu1
+Priority: optional
+Section: universe/graphics
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 217
+Provides: mp3-decoder
+Depends: vlc-bin (= 3.0.3-1-1ubuntu1), vlc-plugin-base (= 3.0.3-1-1ubuntu1), vlc-plugin-qt (= 3.0.3-1-1ubuntu1), vlc-plugin-video-output (= 3.0.3-1-1ubuntu1)
+Recommends: vlc-l10n (= 3.0.3-1-1ubuntu1), vlc-plugin-notify (= 3.0.3-1-1ubuntu1), vlc-plugin-samba (= 3.0.3-1-1ubuntu1), vlc-plugin-skins2 (= 3.0.3-1-1ubuntu1), vlc-plugin-video-splitter (= 3.0.3-1-1ubuntu1), vlc-plugin-visualization (= 3.0.3-1-1ubuntu1)
+Filename: pool/universe/v/vlc/vlc_3.0.3-1-1ubuntu1_amd64.deb
+Size: 33260
+MD5sum: b0da84d2895f3032eb1031d61a6ae084
+SHA1: c999f87dbfc20827103f218341dfff2b64ea61bb
+SHA256: d4ce08934b524a720a08b4675dc65d8ff00a6f3f3ff2621cee3ef28c5a900d60
+Homepage: https://www.videolan.org/vlc/
+Description-en: multimedia player and streamer
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ VLC can also be used as a streaming server that duplicates the stream it
+ reads and multicasts them through the network to other clients, or serves
+ them through HTTP.
+ .
+ VLC has support for on-the-fly transcoding of audio and video formats, either
+ for broadcasting purposes or for movie format transformations. Support for
+ most output methods is provided by this package, but features can be added by
+ installing additional plugins:
+  * vlc-plugin-access-extra
+  * vlc-plugin-fluidsynth
+  * vlc-plugin-jack
+  * vlc-plugin-notify
+  * vlc-plugin-samba
+  * vlc-plugin-skins2
+  * vlc-plugin-svg
+  * vlc-plugin-video-splitter
+  * vlc-plugin-visualization
+Description-md5: d96da6b991aa50928533b16fb11b3136
+Task: kubuntu-desktop, kubuntu-full, ubuntu-mate-desktop
+Supported: 3y
+
+Package: vlc
+Architecture: amd64
+Version: 3.0.1-3build1
+Priority: optional
+Section: universe/graphics
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 153
+Provides: mp3-decoder
+Depends: vlc-bin (= 3.0.1-3build1), vlc-plugin-base (= 3.0.1-3build1), vlc-plugin-qt (= 3.0.1-3build1), vlc-plugin-video-output (= 3.0.1-3build1)
+Recommends: vlc-l10n (= 3.0.1-3build1), vlc-plugin-notify (= 3.0.1-3build1), vlc-plugin-samba (= 3.0.1-3build1), vlc-plugin-skins2 (= 3.0.1-3build1), vlc-plugin-video-splitter (= 3.0.1-3build1), vlc-plugin-visualization (= 3.0.1-3build1)
+Filename: pool/universe/v/vlc/vlc_3.0.1-3build1_amd64.deb
+Size: 32632
+MD5sum: 98bd7bd1de39b917aaaafc0eab36659d
+SHA1: bf7af2937c7a9458560859ac707970ec791bdc97
+SHA256: 04d6d409abc6223aa59de5d0f1283883ea9d768bb9c47d7b503569c122d459de
+Homepage: https://www.videolan.org/vlc/
+Description-en: multimedia player and streamer
+ VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
+ DivX, MOV, WMV, QuickTime, WebM, FLAC, MP3, Ogg/Vorbis files, DVDs, VCDs,
+ podcasts, and multimedia streams from various network sources.
+ .
+ VLC can also be used as a streaming server that duplicates the stream it
+ reads and multicasts them through the network to other clients, or serves
+ them through HTTP.
+ .
+ VLC has support for on-the-fly transcoding of audio and video formats, either
+ for broadcasting purposes or for movie format transformations. Support for
+ most output methods is provided by this package, but features can be added by
+ installing additional plugins:
+  * vlc-plugin-access-extra
+  * vlc-plugin-fluidsynth
+  * vlc-plugin-jack
+  * vlc-plugin-notify
+  * vlc-plugin-samba
+  * vlc-plugin-skins2
+  * vlc-plugin-svg
+  * vlc-plugin-video-splitter
+  * vlc-plugin-visualization
+Description-md5: d96da6b991aa50928533b16fb11b3136
+Task: kubuntu-desktop, kubuntu-full, ubuntu-mate-desktop
+Supported: 3y
+
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ apt-get depend vlc
+E: Invalid operation depend
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ apt-get depend vlc[C[1@r
+E: Invalid operation rdepend
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ apt-get rdepend vlc[1P[C[C[C[C[C[C[C[C[C[C[1P vlc[1P vlc[1P vlc[1P vlc[1P vlc[1P vlcr vlce vlcm vlco vlcv vlce vlc
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ apt-get remove vlc[1@depend[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[Ccache show[C[C[C[C[6@sudo apt-get install[C[C[C[Csystemctl stop apt-daily.timer
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ sudo systemctl stop apt-daily.timer[17Papt-get remove vlc
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ apt-get remove vlc[1@s[1@u[1@d[1@o[1@ 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+The following packages were automatically installed and are no longer required:
+  i965-va-driver liba52-0.7.4 libaacs0 libaribb24-0 libass9 libavcodec57 libavformat57 libavutil55 libbasicusageenvironment1 libbdplus0 libbluray2
+  libcddb2 libchromaprint1 libcrystalhd3 libdc1394-22 libdca0 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgme0 libgroupsock8 libgsm1
+  libkate1 liblivemedia62 libmad0 libmatroska6v5 libmicrodns0 libmpcdec6 libmpeg2-4 libnfs11 libopenjp2-7 libopenmpt-modplug1 libopenmpt0
+  libplacebo4 libpostproc54 libprotobuf-lite10 libproxy-tools libqt5x11extras5 libresid-builder0c2a libsdl-image1.2 libsdl1.2debian libshine3
+  libsidplay2 libsoxr0 libssh-gcrypt-4 libssh2-1 libswresample2 libswscale4 libupnp6 libusageenvironment3 libva-drm2 libva-wayland2 libva-x11-2
+  libva2 libvdpau1 libvlc-bin libvlc5 libvlccore9 libvulkan1 libx264-152 libx265-146 libxvidcore4 libzvbi-common libzvbi0 linux-headers-4.15.0-45
+  linux-headers-4.15.0-45-generic linux-image-4.15.0-45-generic linux-modules-4.15.0-45-generic linux-modules-extra-4.15.0-45-generic
+  mesa-va-drivers mesa-vdpau-drivers va-driver-all vdpau-driver-all vlc-bin vlc-data vlc-l10n vlc-plugin-base vlc-plugin-notify vlc-plugin-qt
+  vlc-plugin-samba vlc-plugin-skins2 vlc-plugin-video-output vlc-plugin-video-splitter vlc-plugin-visualization
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  vlc
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 224 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 225125 files and directories currently installed.)
+Removing vlc (3.0.4-1ubuntu0.2) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+]0;anurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx: ~[01;32manurose@anurose-HP-Spectre-x360-Convertible-13-ae0xx[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-11 09:23:08+0530
